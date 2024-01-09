@@ -3,7 +3,7 @@ services:
   app_server:
     restart: on-failure
     image: node:alpine
-    container_name: paspartu-frontend
+    container_name: generic-stack
     working_dir: /app
     ports:
       - "3000:3000"
